@@ -1,0 +1,93 @@
+h1{
+    color:black;
+}
+
+header{
+    border-style: dotted;
+    border-color: black;
+    width: 275px;
+    padding: 1px;
+    margin: 1px;
+    background-color: transparent;
+}
+nav{
+    border-color: black;
+    border-style: solid;
+    padding: 1px;
+    margin: 1px;
+    border-width: 5px;
+    background-color: rgba(183, 195, 226, 0.959);
+}
+section{
+    border-color: black;
+    border-style: dashed;
+    margin: auto;
+    border-width: 5px;
+    border-radius: 8px;
+    background-color: rgba(67, 166, 190, 0.959);
+    position: static;
+}
+div{
+    border-color: white;
+    border-style: solid;
+    text-align: justify;
+    font-family: Sans-serif;
+    padding: 3px;
+    margin: 3px;
+    background-color: lightskyblue;
+    position: static;
+}
+.div1{
+    border-color: yellow;
+    border-style: double;
+    text-align: justify;
+    font-family: Sans-serif;
+    padding: 10px;
+    margin: 20x;
+    background-color: rgb(161, 200, 224);
+    float: left;
+    width: 650px;
+    position: static;
+}
+.div2{
+    border-color: blue;
+    border-style: solid;
+    text-align: justify;
+    font-family: Sans-serif;
+    padding: 10px;
+    margin: 20x;
+    background-color: lightskyblue;
+    float: right;
+    width: 600px;
+    box-sizing: border-box;
+    position: relative;
+}
+.div3{
+    float: center;
+    border-color:  red;
+    border-style: double;
+    text-align: center;
+    font-family: Sans-serif;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(212, 234, 248);
+    width: 900px;
+}
+body {
+    background-image:url("Imagens CSS/BOTW2.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+footer{
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 8px;
+    background-color: rgba(65, 107, 117, 0.959);
+}
